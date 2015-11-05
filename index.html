@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>Full Stack Task</title>
+
+		<link rel="stylesheet" href="css/styles.css" />
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</head>
+	<body>
+		<div id="selectors" class="container">
+			<div id="playersDiv" class="leftDiv">
+				<label for="players">Player</label>
+				<select name="players" id="players">
+					<option value="choose">Choose...</option>
+				</select>
+			</div>
+			<div id="opponentsDiv" class="rightDiv">
+				<label for="opponents">Opponent</label>
+				<select name="opponents" id="opponents">
+					<option value="none">none</option>
+				</select>
+			</div>
+		</div>
+		<div class="container">
+				<div id="scoresDiv" class="leftDiv">
+					<table id="tableScores">
+						<tr class="tableHeader">
+							<th>Date/Time</th>
+							<th>Opponent</th>
+							<th>Final Score</th>
+							<th>Location</th>
+						</tr>
+					</table>
+				</div>
+				<div id="winDiv" class="rightDiv">
+					<span id="winpct">Win Percentage:</span>
+					<br/>
+					<button id="toggleValidBtn" value="all" disabled>Toggle to: Valid Matches Only</button>
+				</div>
+			</div>
+	</body>
+</html>

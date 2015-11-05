@@ -1,0 +1,38 @@
+.container{
+	width: 700px;
+}
+
+.leftDiv{
+	width: 70%;
+	display: inline-block;
+}
+
+.rightDiv{
+	width: 20%;
+	display: inline-block;
+	position: absolute; /*Consider FlexBox instead of position:absolute*/
+}
+
+#winpct{
+	vertical-align: top;
+}
+
+tr.tableHeader{
+	font-weight: bold;
+}
+
+tr.invalidMatch{
+	color: darkgray;
+}
+
+tr.winningMatch{
+	background: green;
+}
+
+tr.losingMatch{
+	background: red;
+}
+
+tr.tyingMatch{
+	background: yellow;
+}
